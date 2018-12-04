@@ -1209,7 +1209,7 @@ String sign = AppRsaSignUtils.rsaSign("appId=" + APP_ID + "&cvSequence=" + CVSEQ
 | 参数名称 | 参数类型 | 是否必须 | 参数描述 |
 | :---    | :---   | :---    | :---    |
 | client_id | string | 是 | appId |
-| method | string | 是 | 调用的接口 |
+| method | string | 是 | 调用的接口(app.pushNotice) |
 | access_token | string | 是 | 用户访问令牌 |
 | timestamp | string | 是 | 时间戳，与服务器时间相差在5分钟以内才有效 |
 | sign | string | 是 | 接口签名，[签名算法](api.html#令牌签名) |
